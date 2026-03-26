@@ -10,6 +10,12 @@ public class lec_3_variables {
         System.out.println("----double----");
         double c = 7.8000;
         System.out.println("c = "+c);
+        System.out.println("---Boolean---- ");
+        boolean t =true;
+        boolean f = false;
+        System.out.println(t);
+        System.out.println(f);
+
         System.out.println("Text---->");
         System.out.println("----Character---->");
         char d = 'A';
