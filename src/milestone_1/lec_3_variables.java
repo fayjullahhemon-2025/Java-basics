@@ -1,3 +1,5 @@
+package milestone_1;
+
 public class lec_3_variables {
     public static void main(String[] args) {
         System.out.println("numbers----------->");

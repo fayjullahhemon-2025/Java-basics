@@ -1,3 +1,5 @@
+package milestone_1;
+
 public class lec_4_array {
     public static void main(String[] args){
         //syntax : datatype[] array_name = {elements}

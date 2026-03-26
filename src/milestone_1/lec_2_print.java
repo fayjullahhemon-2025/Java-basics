@@ -1,3 +1,5 @@
+package milestone_1;
+
 public class lec_2_print {
     public static void main(String[] args){
         //for printing something we use System.out.println()
