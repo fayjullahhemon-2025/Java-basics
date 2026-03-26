@@ -43,6 +43,14 @@ public class lec_1_operator {
         System.out.println(c);// 2 = 0010 left shifted by 2 means the right bits shifted 2 times by left. the answer should be 8
         System.out.println("2 = 0010 left shifted by 2 means the right bits shifted 2 times by left. the answer should be 8");
 
-
+        System.out.println("---Comparison Operators---");
+        a = 5;
+        b = 4;
+        System.out.println("5 is greater than 4 = "+(a>b));
+        System.out.println("5 is less than 4 = "+(a<b));
+        System.out.println("5 is greater than or equal to 4 = "+(a>=b));
+        System.out.println("5 is less than or equal to 4 = "+(a<=b));
+        System.out.println("5 is equal to 4 = "+(a==b));
+        System.out.println("5 is not equal to 4 = "+(a!=b));
     }
 }
