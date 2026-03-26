@@ -36,5 +36,8 @@ public class lec_3_variables {
         final float pi = 3.1416f;
         System.out.println(pi);
 
+        String g=null;
+        System.out.println(g);
+
     }
 }
