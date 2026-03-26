@@ -17,5 +17,14 @@ public class lec_3_variables {
         System.out.println("---String----");
         String e = "Hello world!";
         System.out.println("e = "+e);
+        System.out.println("----Multiple variables------");
+        System.out.println("a+b+c = "+ a+b+c); //do wrong sum
+        /**
+         * Java is following its Operator Precedence rules. In Java,
+         * the + operator works from left to right.
+         * **/
+        System.out.println("a+b+c = "+ (a+b+c)); //do right sum
+        System.out.println(a+b+c);
+
     }
 }
