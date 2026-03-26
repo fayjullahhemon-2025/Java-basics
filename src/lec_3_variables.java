@@ -26,5 +26,9 @@ public class lec_3_variables {
         System.out.println("a+b+c = "+ (a+b+c)); //do right sum
         System.out.println(a+b+c);
 
+        //turn variable to constant
+        final float pi = 3.1416f;
+        System.out.println(pi);
+
     }
 }
