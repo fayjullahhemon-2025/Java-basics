@@ -52,5 +52,23 @@ public class lec_1_operator {
         System.out.println("5 is less than or equal to 4 = "+(a<=b));
         System.out.println("5 is equal to 4 = "+(a==b));
         System.out.println("5 is not equal to 4 = "+(a!=b));
+
+        System.out.println("---Logical operator----");
+        System.out.println("And operator");
+        System.out.println(" true and true = "+ (true && true));
+        System.out.println(" true and false = "+ (true && false));
+        System.out.println(" false and false = "+ (false && false));
+        System.out.println(" false and true = "+ (false && true));
+        System.out.println(" Or operator ");
+        System.out.println(" true or true = "+ (true || true));
+        System.out.println(" false or true = "+ (false || true));
+        System.out.println(" false or false = "+ (false || false));
+        System.out.println(" true or false = "+ (true || false));
+
+        System.out.println(" Not operator = ");
+        System.out.println(" not(true or false) =  "+ !(true || false));
+
+
+
     }
 }
