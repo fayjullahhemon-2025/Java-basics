@@ -4,7 +4,7 @@ public class lec_1_operator {
     public static void main(String[] args) {
         System.out.println("Arithmetic operator");
         int a = 5;
-        int b = 4;
+        int b = 5;
         System.out.println("Sum of a+b = "+ (a+b));
         System.out.println("Substraction of a-b = "+ (a-b));
         System.out.println("Multiplication of a x b = "+ (a*b));
@@ -15,6 +15,34 @@ public class lec_1_operator {
         System.out.println("decrement of a  = "+ (a--));
         System.out.println("decrement of b  = "+ (--b));
 
-//        System.out.println("Arithmetic operator");
+        System.out.println("Assignment operator");
+        a +=5;
+        System.out.println("a = a+5 = "+a);
+        a -=5;
+        System.out.println("a = a-5 = "+a);
+        a *=5;
+        System.out.println("a =a*5 = "+a);
+        a /=5;
+        System.out.println("a = a/5 = "+a);
+        a %=5;
+        System.out.println("a = a%5 = "+a);
+        b &=3;
+        System.out.println("b = b&3 ="+b);// 5 = 0101 & 3 = 0011 = 0001
+        System.out.println("explanation: 5 = 0101 & 3 = 0011 = 0001");
+        b |=3;
+        System.out.println(b); // 1 = 0001 | 3 = 0011 = 0011 = 3
+        System.out.println("explanation: 1 = 0001 | 3 = 0011 = 0011 = 3");
+        b ^=2;
+        System.out.println(b);// 3 = 0011 ^ 2=0010 = 0001 = 1
+        System.out.println("explanation : 3 = 0011 ^ 2=0010 = 0001 = 1");
+        int c = 10;
+        c >>=2;
+        System.out.println(c); // 10 = 1010 right shifted by 2 means the left bits shifted 2 time by right. answer should be 2
+        System.out.println("10 = 1010 right shifted by 2 means the left bits shifted 2 time by right. answer should be 2");
+        c <<=2;
+        System.out.println(c);// 2 = 0010 left shifted by 2 means the right bits shifted 2 times by left. the answer should be 8
+        System.out.println("2 = 0010 left shifted by 2 means the right bits shifted 2 times by left. the answer should be 8");
+
+
     }
 }
